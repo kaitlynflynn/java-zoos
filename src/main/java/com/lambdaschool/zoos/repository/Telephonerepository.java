@@ -1,5 +1,8 @@
 package com.lambdaschool.zoos.repository;
 
-public interface Telephonerepository
+import com.lambdaschool.zoos.model.Telephone;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Telephonerepository extends JpaRepository<Telephone, Long>
 {
 }
